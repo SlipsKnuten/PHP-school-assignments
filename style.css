@@ -1,0 +1,22 @@
+table, td, th {
+    border: none;
+	
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+	margin:auto;
+	text-align:center;
+	border-bottom: 1px solid #ddd;
+	font-family: 'Roboto', sans-serif;
+}
+
+th {
+    height: 50px;
+}
+tr:nth-child(even) {background-color: #f2f2f2}
+th {
+    background-color: #2b84e2;
+    color: white;
+}
